@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWin</class>
+ <widget class="QWidget" name="MainWin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>773</width>
+    <height>569</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>731</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>5</number>
+      </property>
+      <widget class="QWidget" name="page_13">
+       <widget class="QLabel" name="LabInImg">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>50</y>
+          <width>481</width>
+          <height>401</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>入场模式</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>50</y>
+          <width>269</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>入场时间</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>130</y>
+          <width>81</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>车牌图片</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="EditInTime">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>80</y>
+          <width>171</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="LabInCarNumImg">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>180</y>
+          <width>171</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>车牌照片</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_27">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>230</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>车牌号码</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="EditInCarNum">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>250</y>
+          <width>171</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="BtnInGetCarNum">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>130</y>
+          <width>89</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>GetCarNum</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>731</width>
+          <height>33</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_12">
+         <item>
+          <widget class="QPushButton" name="BtnOut_6">
+           <property name="text">
+            <string>出场模式</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BtnMngParkn_6">
+           <property name="text">
+            <string>停车场内部管理</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BtnQueryCar_6">
+           <property name="text">
+            <string>车辆信息查询</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BtnSettings_6">
+           <property name="text">
+            <string>系统设置</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_23">
+           <property name="text">
+            <string>智慧停车云平台管理系统</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>300</y>
+          <width>201</width>
+          <height>181</height>
+         </rect>
+        </property>
+        <row>
+         <property name="text">
+          <string/>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string/>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string/>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string/>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>序号</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>车牌号码</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>时间</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>位置</string>
+         </property>
+        </column>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_15">
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>130</y>
+          <width>81</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>车牌图片</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_29">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>230</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>车牌号码</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>50</y>
+          <width>191</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>出场时间</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="EditOuttime">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>90</y>
+          <width>181</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="LabOutImg">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>501</width>
+          <height>401</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>出场模式</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="EditCarNum">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>250</y>
+          <width>191</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="LabOCarNumimg">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>170</y>
+          <width>161</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>车牌照片</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>320</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>入场时间</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="LabInTime">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>320</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>350</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>停车时长</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="LabAllTime">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>350</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>390</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>收费：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="LabCharge">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>390</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="BtnOGetCarNum">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>130</y>
+          <width>89</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>GetCarNum</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>731</width>
+          <height>33</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_13">
+         <item>
+          <widget class="QPushButton" name="BtnIn_2">
+           <property name="text">
+            <string>入场模式</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BtnMngParkn_7">
+           <property name="text">
+            <string>停车场内部管理</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BtnQueryCar_7">
+           <property name="text">
+            <string>车辆信息查询</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BtnSettings_7">
+           <property name="text">
+            <string>系统设置</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_25">
+           <property name="text">
+            <string>智慧停车云平台管理系统</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QCheckBox" name="ckBox_ism">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>440</y>
+          <width>101</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>是否是月卡</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="BtnGo">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>430</y>
+          <width>89</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>放行</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_14">
+       <widget class="QLabel" name="LabParkimg">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>60</y>
+          <width>511</width>
+          <height>401</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>停车场</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>731</width>
+          <height>33</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_10">
+         <item>
+          <widget class="QPushButton" name="BtnIn">
+           <property name="text">
+            <string>入场模式</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BtnOut_5">
+           <property name="text">
+            <string>出场模式</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BtnQueryCar_5">
+           <property name="text">
+            <string>车辆信息查询</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BtnSettings_5">
+           <property name="text">
+            <string>系统设置</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_20">
+           <property name="text">
+            <string>智慧停车云平台管理系统</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>60</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>监控回放模式</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="gridLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>140</y>
+          <width>191</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>１１辆</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>本车场车辆总数：</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>目前车场空闲车位</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>１１辆</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>280</y>
+          <width>181</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="text">
+            <string>人物和车辆特征图片抓拍</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="text">
+            <string>停车场监控录制</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox">
+           <property name="text">
+            <string>视频监控自动录制</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page">
+       <widget class="QWidget" name="horizontalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>721</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="font">
+            <font>
+             <family>AR PL UKai TW MBE</family>
+             <pointsize>15</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+             <kerning>true</kerning>
+            </font>
+           </property>
+           <property name="text">
+            <string>停车场监控</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="font">
+            <font>
+             <family>AR PL UKai TW</family>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>系统设置</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>智慧停车系统</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>80</y>
+          <width>191</width>
+          <height>411</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QRadioButton" name="radioButton">
+             <property name="text">
+              <string>按月显示</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radioButton_2">
+             <property name="text">
+              <string>按天显示</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QTreeWidget" name="treeWidget">
+           <property name="headerHidden">
+            <bool>true</bool>
+           </property>
+           <attribute name="headerVisible">
+            <bool>false</bool>
+           </attribute>
+           <column>
+            <property name="text">
+             <string>日期</string>
+            </property>
+           </column>
+           <item>
+            <property name="text">
+             <string>2022-05</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>2022-05-01</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-02</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-03</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-04</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-05</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-06</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-07</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-08</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-09</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-10</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-11</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-12</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-13</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-14</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-15</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-16</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-17</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-18</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-19</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-20</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-21</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-22</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-23</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-24</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-25</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-26</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-27</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-28</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-29</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-30</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-05-31</string>
+             </property>
+            </item>
+           </item>
+           <item>
+            <property name="text">
+             <string>2022-06</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>2022-06-01</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-02</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-03</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-04</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-05</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-06</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-07</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-08</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-09</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-10</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-11</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-12</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-13</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-14</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-15</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-16</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-17</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-18</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-19</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-20</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-21</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-22</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-23</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-24</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-25</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-26</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-27</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-28</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-29</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-06-30</string>
+             </property>
+            </item>
+           </item>
+           <item>
+            <property name="text">
+             <string>2022-07</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>2022-07-01</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-02</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-03</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-04</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-05</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-06</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-07</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-08</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-09</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-10</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-11</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-12</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-13</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-14</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-15</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-16</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-17</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-18</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-19</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-20</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-21</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-22</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-23</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-24</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-25</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-26</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-27</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-28</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-29</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-30</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2022-07-31</string>
+             </property>
+            </item>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QListWidget" name="listWidget">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>120</y>
+          <width>531</width>
+          <height>321</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>450</y>
+          <width>431</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_18">
+         <item>
+          <widget class="QPushButton" name="pushButton_11">
+           <property name="text">
+            <string>&lt;&lt;上一页</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_53">
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="text">
+            <string>第1页</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_12">
+           <property name="text">
+            <string>下一页&gt;&gt;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QPushButton" name="pushButton_20">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>41</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>返回</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>430</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>总时长</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string>0:0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QComboBox" name="comboBox">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>430</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>0.5X</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>0.7X</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1.0X</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1.2X</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1.5X</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1.7X</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2.0X</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>430</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>已播放</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>0:0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QProgressBar" name="progressBar">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>390</y>
+          <width>581</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="value">
+         <number>24</number>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>561</width>
+          <height>341</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>视频</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_19">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>430</y>
+          <width>89</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>暂停</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <widget class="QWidget" name="horizontalLayoutWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>721</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string>输入车牌号码：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="Editsrchcarnum"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>入场时间：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="Editsrchintime"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_14">
+           <property name="text">
+            <string>出场时间：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="Editserchoutime"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BtnSerchCarinfo">
+           <property name="text">
+            <string>查询</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>711</width>
+          <height>361</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>序号</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>车牌信息</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>入场时间</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>出场时间</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>入场图片</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>新建列</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>停车金额</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QPushButton" name="BtnDataOut">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>440</y>
+          <width>89</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>数据导出</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="BtnRetnMain">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>440</y>
+          <width>89</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>返回主界面</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <item>
+       <widget class="QLabel" name="label_22">
+        <property name="text">
+         <string>剩余车位：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_21">
+        <property name="text">
+         <string>当前用户：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="LabCurrentTime">
+        <property name="text">
+         <string>当前系统时间：</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
